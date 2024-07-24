@@ -1,12 +1,6 @@
 <h1 align="center">Data Science</h1>
 
-<div align="center">
-
-  `Click to Open`
-</div>
-
-<details>
-  <summary>1. program to print non prime numbers in a range.</summary>
+  <h3>1. program to print non prime numbers in a range.</h3>
   
 ```python
 a = int(input("Enter the start of the range : "))
@@ -23,8 +17,7 @@ for num in range(a, b+1):
     if is_prime(num):
         print(num)
 ```
-</details>
-<details>
+
   <summary>2. program to print the first N fibonacci series.</summary>
 
 ```python
@@ -39,8 +32,7 @@ for i in range(0, n):
     a = b
     b = c
 ```
-</details>
-<details>
+
   <summary>3. program to find the roots of a quadratic equation(rounded to 2 decimal places).</summary>
 
 ```python
@@ -65,8 +57,7 @@ else:
     root = -b / (2 * a)
     print(f"Roots are real and same\nRoot : {root:.2f}")
 ```
-</details>
-<details>
+
   <summary>4. program to check weather a given number is perfect or not (sum of factors = num).</summary>
 
 ```python
@@ -84,8 +75,7 @@ if is_perfect(num):
 else:
     print(f"Number {num} is not perfect")
 ```
-</details>
-<details>
+
   <summary>5. program to display armstrong number up-to 1000.</summary>
 
 ```python
@@ -99,9 +89,7 @@ for num in range(1, 1001):
         temp //= 10
     if sum == num:
         print(num)
-```
-</details>
-<details>
+
   <summary>6. program to perform bubble sort on a given set of elements.</summary>
 
 ```python
@@ -117,12 +105,10 @@ for i in range(0, n-1):
             temp = a[j+1]
             a[j+1] = a[j]
             a[j] = temp
-5
 
 print("Bubble sorted list is : ", a)
 ```
-</details>
-<details>
+
   <summary>7. program to accept a 10 digit mobile number and find the digits which are absent in it.</summary>
 
 ```python
@@ -139,4 +125,4 @@ if len(str(num)) == 10:
 else:
     print("Mobile number should contain 10 numbers.")
 ```
-</details>
+
