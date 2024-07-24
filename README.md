@@ -117,3 +117,21 @@ for i in range(0, n-1):
 print("Bubble sorted list is : ", a)
 ```
 </details>
+<details>
+  <summary>7. program to accept a 10 digit mobile number and find the digits which are absent in it.</summary>
+
+```python
+num = int(input("Enter a mobile number : "))
+numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+if len(str(num)) == 10:
+    while num > 0:
+        digit = num % 10
+        if digit in numbers:
+            numbers.remove(digit)
+        num //= 10
+    print(numbers)
+else:
+    print("Mobile number should contain 10 numbers.")
+```
+</details>
