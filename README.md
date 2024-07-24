@@ -1,6 +1,5 @@
 <h1 align="center">Data Science</h1>
 
-<details>
   <h3>1. program to print non prime numbers in a range.</h3>
   
 ```python
@@ -18,8 +17,7 @@ for num in range(a, b+1):
     if is_prime(num):
         print(num)
 ```
-</details>
-<details>
+
   <h3>2. program to print the first N fibonacci series.</h3>
 
 ```python
@@ -34,8 +32,7 @@ for i in range(0, n):
     a = b
     b = c
 ```
-</details>
-<details>
+
   <h3>3. program to find the roots of a quadratic equation(rounded to 2 decimal places).</h3>
 
 ```python
@@ -60,8 +57,7 @@ else:
     root = -b / (2 * a)
     print(f"Roots are real and same\nRoot : {root:.2f}")
 ```
-</details>
-<details>
+
   <h3>4. program to check weather a given number is perfect or not (sum of factors = num).</h3>
 
 ```python
@@ -79,8 +75,7 @@ if is_perfect(num):
 else:
     print(f"Number {num} is not perfect")
 ```
-</details>
-<details>
+
   <h3>5. program to display armstrong number up-to 1000.</h3>
 
 ```python
@@ -95,8 +90,7 @@ for num in range(1, 1001):
     if sum == num:
         print(num)
 ```
-</details>
-<details>
+
   <h3>6. program to perform bubble sort on a given set of elements.</h3>
 
 ```python
@@ -112,12 +106,10 @@ for i in range(0, n-1):
             temp = a[j+1]
             a[j+1] = a[j]
             a[j] = temp
-5
 
 print("Bubble sorted list is : ", a)
 ```
-</details>
-<details>
+
   <h3>7. program to accept a 10 digit mobile number and find the digits which are absent in it.</h3>
 
 ```python
@@ -134,4 +126,4 @@ if len(str(num)) == 10:
 else:
     print("Mobile number should contain 10 numbers.")
 ```
-</details>
+
