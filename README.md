@@ -62,7 +62,7 @@ else:
 ```
 </details>
 <details>
-  <summary>3. program to check weather a given number is perfect or not (sum of factors = num).</summary>
+  <summary>4. program to check weather a given number is perfect or not (sum of factors = num).</summary>
 
 ```python
 num = int(input("Enter a number : "))
