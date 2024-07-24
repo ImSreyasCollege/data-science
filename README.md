@@ -1,7 +1,7 @@
 <h1 align="center">Data Science</h1>
 
 <details>
-  <summary>1. program to print non prime numbers in a range.</summary>
+  <h3>1. program to print non prime numbers in a range.</h3>
   
 ```python
 a = int(input("Enter the start of the range : "))
@@ -20,7 +20,7 @@ for num in range(a, b+1):
 ```
 </details>
 <details>
-  <summary>2. program to print the first N fibonacci series.</summary>
+  <h3>2. program to print the first N fibonacci series.</h3>
 
 ```python
 n = int(input("Enter the number of terms : "))
@@ -36,7 +36,7 @@ for i in range(0, n):
 ```
 </details>
 <details>
-  <summary>3. program to find the roots of a quadratic equation(rounded to 2 decimal places).</summary>
+  <h3>3. program to find the roots of a quadratic equation(rounded to 2 decimal places).</h3>
 
 ```python
 import math
@@ -62,7 +62,7 @@ else:
 ```
 </details>
 <details>
-  <summary>4. program to check weather a given number is perfect or not (sum of factors = num).</summary>
+  <h3>4. program to check weather a given number is perfect or not (sum of factors = num).</h3>
 
 ```python
 num = int(input("Enter a number : "))
@@ -81,7 +81,7 @@ else:
 ```
 </details>
 <details>
-  <summary>5. program to display armstrong number up-to 1000.</summary>
+  <h3>5. program to display armstrong number up-to 1000.</h3>
 
 ```python
 for num in range(1, 1001):
@@ -97,7 +97,7 @@ for num in range(1, 1001):
 ```
 </details>
 <details>
-  <summary>6. program to perform bubble sort on a given set of elements.</summary>
+  <h3>6. program to perform bubble sort on a given set of elements.</h3>
 
 ```python
 n = int(input("Enter the number of terms : "))
@@ -118,7 +118,7 @@ print("Bubble sorted list is : ", a)
 ```
 </details>
 <details>
-  <summary>7. program to accept a 10 digit mobile number and find the digits which are absent in it.</summary>
+  <h3>7. program to accept a 10 digit mobile number and find the digits which are absent in it.</h3>
 
 ```python
 num = int(input("Enter a mobile number : "))
