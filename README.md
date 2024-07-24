@@ -1,5 +1,10 @@
 <h1 align="center">Data Science</h1>
 
+<div align="center">
+
+  `Click to Open`
+</div>
+
 <details>
   <summary>1. program to print non prime numbers in a range.</summary>
   
