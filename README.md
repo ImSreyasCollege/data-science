@@ -80,3 +80,19 @@ else:
     print(f"Number {num} is not perfect")
 ```
 </details>
+<details>
+  <summary>5. program to display armstrong number up-to 1000.</summary>
+
+```python
+for num in range(1, 1001):
+    sum = 0
+    temp = num
+
+    while temp > 0:
+        remainder = temp % 10
+        sum += remainder ** len(str(num))
+        temp //= 10
+    if sum == num:
+        print(num)
+```
+</details>
