@@ -1,6 +1,11 @@
 <h1 align="center">Data Science</h1>
 
-  <h3>1. program to print non prime numbers in a range.</h3>
+<h2 align="center">
+  
+  [`1`](#1) [`2`](#2) [`3`](#3) [`4`](#4) [`5`](#5) [`6`](#6) [`7`](#7)
+</h2>
+
+  <h3 id="1">1. program to print non prime numbers in a range.</h3>
   
 ```python
 a = int(input("Enter the start of the range : "))
@@ -9,7 +14,7 @@ b = int(input("Enter the end of the range : "))
 def is_prime(num):
     if num < 2 : return True
     for i in range(2, (num//2)+1):
-        if num/i == num//i :
+        if num/i == num//i:
             return True
     return False
 
@@ -18,7 +23,7 @@ for num in range(a, b+1):
         print(num)
 ```
 
-  <h3>2. program to print the first N fibonacci series.</h3>
+  <h3 id="2">2. program to print the first N fibonacci series.</h3>
 
 ```python
 n = int(input("Enter the number of terms : "))
@@ -33,7 +38,7 @@ for i in range(0, n):
     b = c
 ```
 
-  <h3>3. program to find the roots of a quadratic equation(rounded to 2 decimal places).</h3>
+  <h3 id="3">3. program to find the roots of a quadratic equation(rounded to 2 decimal places).</h3>
 
 ```python
 import math
@@ -58,7 +63,7 @@ else:
     print(f"Roots are real and same\nRoot : {root:.2f}")
 ```
 
-  <h3>4. program to check weather a given number is perfect or not (sum of factors = num).</h3>
+  <h3 id="4">4. program to check weather a given number is perfect or not (sum of factors = num).</h3>
 
 ```python
 num = int(input("Enter a number : "))
@@ -76,7 +81,7 @@ else:
     print(f"Number {num} is not perfect")
 ```
 
-  <h3>5. program to display armstrong number up-to 1000.</h3>
+  <h3 id="5">5. program to display armstrong number up-to 1000.</h3>
 
 ```python
 for num in range(1, 1001):
@@ -91,7 +96,7 @@ for num in range(1, 1001):
         print(num)
 ```
 
-  <h3>6. program to perform bubble sort on a given set of elements.</h3>
+  <h3 id="6">6. program to perform bubble sort on a given set of elements.</h3>
 
 ```python
 n = int(input("Enter the number of terms : "))
@@ -110,7 +115,7 @@ for i in range(0, n-1):
 print("Bubble sorted list is : ", a)
 ```
 
-  <h3>7. program to accept a 10 digit mobile number and find the digits which are absent in it.</h3>
+  <h3 id="7">7. program to accept a 10 digit mobile number and find the digits which are absent in it.</h3>
 
 ```python
 num = int(input("Enter a mobile number : "))
