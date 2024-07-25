@@ -1,11 +1,20 @@
 <h1 align="center">Data Science</h1>
 
+<h3 align="center">Cycle 1</h3>
 <h2 align="center">
   
-  [`1`](#1) [`2`](#2) [`3`](#3) [`4`](#4) [`5`](#5) [`6`](#6) [`7`](#7)
+  [`1`](#1_1) [`2`](#1_2) [`3`](#1_3) [`4`](#1_4) [`5`](#1_5) [`6`](#1_6) [`7`](#1_7)
 </h2>
 
-  <h3 id="1">1. program to print non prime numbers in a range.</h3>
+<h3 align="center">Cycle 2</h3>
+<h2 align="center">
+  
+  [`1`](#2_1) [`2`](#2_2) [`3`](#2_3) [`4`](#2_4) [`5`](#2_5) [`6`](#2_6) [`7`](#2_7)
+</h2>
+
+<h3>Cycle 1</h3>
+
+  <h3 id="1_1">1. program to print non prime numbers in a range.</h3>
   
 ```python
 a = int(input("Enter the start of the range : "))
@@ -23,7 +32,7 @@ for num in range(a, b+1):
         print(num)
 ```
 
-  <h3 id="2">2. program to print the first N fibonacci series.</h3>
+  <h3 id="1_2">2. program to print the first N fibonacci series.</h3>
 
 ```python
 n = int(input("Enter the number of terms : "))
@@ -38,7 +47,7 @@ for i in range(0, n):
     b = c
 ```
 
-  <h3 id="3">3. program to find the roots of a quadratic equation(rounded to 2 decimal places).</h3>
+  <h3 id="1_3">3. program to find the roots of a quadratic equation(rounded to 2 decimal places).</h3>
 
 ```python
 import math
@@ -63,7 +72,7 @@ else:
     print(f"Roots are real and same\nRoot : {root:.2f}")
 ```
 
-  <h3 id="4">4. program to check weather a given number is perfect or not (sum of factors = num).</h3>
+  <h3 id="1_4">4. program to check weather a given number is perfect or not (sum of factors = num).</h3>
 
 ```python
 num = int(input("Enter a number : "))
@@ -81,7 +90,7 @@ else:
     print(f"Number {num} is not perfect")
 ```
 
-  <h3 id="5">5. program to display armstrong number up-to 1000.</h3>
+  <h3 id="1_5">5. program to display armstrong number up-to 1000.</h3>
 
 ```python
 for num in range(1, 1001):
@@ -96,7 +105,7 @@ for num in range(1, 1001):
         print(num)
 ```
 
-  <h3 id="6">6. program to perform bubble sort on a given set of elements.</h3>
+  <h3 id="1_6">6. program to perform bubble sort on a given set of elements.</h3>
 
 ```python
 n = int(input("Enter the number of terms : "))
@@ -115,7 +124,7 @@ for i in range(0, n-1):
 print("Bubble sorted list is : ", a)
 ```
 
-  <h3 id="7">7. program to accept a 10 digit mobile number and find the digits which are absent in it.</h3>
+  <h3 id="1_7">7. program to accept a 10 digit mobile number and find the digits which are absent in it.</h3>
 
 ```python
 num = int(input("Enter a mobile number : "))
@@ -130,5 +139,37 @@ if len(str(num)) == 10:
     print(numbers)
 else:
     print("Mobile number should contain 10 numbers.")
+```
+
+<h3>Cycle 2</h3>
+
+<h3 id="2_1">1. Create a three dimensional array specifying float data type and print it.</h3>
+
+```python
+from numpy import array
+
+numpy_array = array([
+    [
+        [
+            10.2,
+            20.8
+        ],
+        [
+            11.4,
+            2.9
+        ]
+    ],
+    [
+        [
+            9.8,
+            5.4
+        ],
+        [
+            8.3,
+            7.1
+        ]
+    ]
+], dtype=float)
+print(numpy_array)
 ```
 
