@@ -170,6 +170,84 @@ numpy_array = array([
         ]
     ]
 ], dtype=float)
-print(numpy_array)
+print("3D array : ", numpy_array)
 ```
 
+<h3 id="2_2">2. </h3>
+
+```python
+```
+
+<h3 id="2_3">3. </h3>
+
+```python
+```
+
+<h3 id="2_4">4. </h3>
+
+```python
+```
+
+<h3 id="2_5">5. </h3>
+
+```python
+```
+<h3 id="2_6">6. </h3>
+
+```python
+```
+
+<h3 id="2_7">7. </h3>
+
+```python
+```
+
+<h3 id="2_8">8. </h3>
+
+```python
+```
+
+<h3 id="2_9">9. </h3>
+
+```python
+```
+
+<h3 id="2_10">10. </h3>
+
+```python
+```
+
+<h3 id="2_11">11. </h3>
+
+```python
+```
+
+<h3 id="2_12">12. </h3>
+
+```python
+```
+
+<h3 id="2_13">13. </h3>
+
+```python
+```
+
+<h3 id="2_14">14. </h3>
+
+```python
+```
+
+<h3 id="2_15">15. </h3>
+
+```python
+```
+
+<h3 id="2_16">16. </h3>
+
+```python
+```
+
+<h3 id="2_17">17. </h3>
+
+```python
+```
