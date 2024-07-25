@@ -173,9 +173,41 @@ numpy_array = array([
 print("3D array : ", numpy_array)
 ```
 
-<h3 id="2_2">2. </h3>
+<h3 id="2_2">
+    2. Create a 2D array (2X3) with elements belonging to complex data type and print it, also display
+        a. no.of rows and columns
+        b. dimensions of an array
+        c. reshape the same array to 3X2
+</h3>
 
 ```python
+from numpy import array
+
+arr = array([
+    [
+        1 + 2j,
+        3 - 2j,
+        7 - 9j,
+    ],
+    [
+        4 + 3j,
+        8 + 1j,
+        5 + 5j
+    ]
+], dtype=complex)
+
+print("array is : ", arr)
+
+# tuple destructuring (arr.shape returns a tuple with a size of 2)
+(rows, cols) = arr.shape
+print("number of rows : ", rows)
+print("number of cols : ", cols)
+
+dim = arr.ndim
+print("array dimension : ", dim)
+
+reshaped_arr = arr.reshape(3, 2)
+print("reshaped array : ", reshaped_arr)
 ```
 
 <h3 id="2_3">3. </h3>
