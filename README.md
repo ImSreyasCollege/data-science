@@ -140,7 +140,7 @@ if len(str(num)) == 10:
 else:
     print("Mobile number should contain 10 numbers.")
 ```
-
+<h1></h1>
 <h3>Cycle 2</h3>
 
 <h3 id="2_1">1. Create a three dimensional array specifying float data type and print it.</h3>
@@ -174,9 +174,9 @@ print("3D array : ", numpy_array)
 ```
 
 <h3 id="2_2">
-    2. Create a 2D array (2X3) with elements belonging to complex data type and print it, also display
-        a. no.of rows and columns
-        b. dimensions of an array
+    2. Create a 2D array (2X3) with elements belonging to complex data type and print it, also display<br><br>
+        a. no.of rows and columns<br>
+        b. dimensions of an array<br>
         c. reshape the same array to 3X2
 </h3>
 
