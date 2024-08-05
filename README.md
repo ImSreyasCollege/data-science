@@ -230,9 +230,25 @@ zero_arr = np.zeros(shape=(2, 3), dtype=int)
 print(zero_arr)
 ```
 
-<h3 id="2_4">4. </h3>
+<h3 id="2_4">
+    4. create one dimensional array using arange function containing 10 elements and display
+        a. first 4 elements
+        b. last 6 elements
+        c. elements from index 2 to 7
+</h3>
 
 ```python
+import numpy as np
+
+arr = np.arange(10)
+first_4 = arr[:4]
+last_6 = arr[-6:]
+ele_2_to_7 = arr[2:8]
+
+print("original array : ", arr)
+print("first 4 elements : ", first_4)
+print("last 6 elements : ", last_6)
+print("elements from index 2 to 7 : ", ele_2_to_7)
 ```
 
 <h3 id="2_5">5. </h3>
