@@ -210,9 +210,24 @@ reshaped_arr = arr.reshape(3, 2)
 print("reshaped array : ", reshaped_arr)
 ```
 
-<h3 id="2_3">3. </h3>
+<h3 id="2_3">
+    3. familiarize with the functions to create.
+        a. an un-utilized array
+        b. array with all elements 1
+        c. array with all elements 0
+</h3>
 
 ```python
+import numpy as np
+
+un_utilized_arr = np.empty(shape=(2, 3), dtype=int)
+print(un_utilized_arr)
+
+ones_arr = np.ones(shape=(2, 3), dtype=int)
+print(ones_arr)
+
+zero_arr = np.zeros(shape=(2, 3), dtype=int)
+print(zero_arr)
 ```
 
 <h3 id="2_4">4. </h3>
