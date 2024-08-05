@@ -251,9 +251,28 @@ print("last 6 elements : ", last_6)
 print("elements from index 2 to 7 : ", ele_2_to_7)
 ```
 
-<h3 id="2_5">5. </h3>
+<h3 id="2_5">
+    5. create a 1D array with arange contaning first 15 even numbers as elements
+        a. elements from indexing 2 to 8 with step 2
+        b. last 3 elements of the array using negative index
+        c. alternate elements of the array
+        d. display last 3 alternate elements
+</h3>
 
 ```python
+import numpy as np
+
+arr = np.arange(2, 31, 2)
+slice_arr = arr[2:9:2]
+last_3 = arr[-3:]
+alternate_ele = arr[::2]
+last_3_alternate = arr[-3*2::2]
+
+print("original array : ", arr)
+print("sliced array : ", slice_arr)
+print("last 3 elements in array : ", last_3)
+print("alternate elements : ", alternate_ele)
+print("last 3 alternate elements : ", last_3_alternate)
 ```
 <h3 id="2_6">6. </h3>
 
