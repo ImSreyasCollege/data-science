@@ -351,3 +351,12 @@ print("elements from indices 4 to 10 in desc order : ", arr[0])
 
 ```python
 ```
+
+<h1></h1>
+<h3>Cycle 3</h3>
+
+<h3 id="3_1">1. </h3>
+
+```python
+
+```
