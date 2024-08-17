@@ -7,5 +7,6 @@ plt.title('Cherry tree heights',loc='left')
 plt.title('SREYAS SATHEESH\nMCA 2023-2025', loc='right')
 plt.xlabel('Height (in inches)')
 plt.ylabel('Frequency')
-plt.savefig("./Outputs/prg-6.png")
+plt.savefig("./Outputs/6.png")
+
 plt.show()

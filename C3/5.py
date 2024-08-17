@@ -6,5 +6,6 @@ plt.xlabel('Mode of Transport')
 plt.ylabel('Frequency')
 plt.title('SREYAS SATHEESH\nMCA 2023-2025', loc='right')
 plt.bar(mode_transport,feq, width=0.1, color='green')
-plt.savefig("./Outputs/prg-5.png")
+plt.savefig("./Outputs/5.png")
+
 plt.show()

@@ -11,5 +11,6 @@ plt.xlabel('Months of Year', fontsize=18)
 plt.ylabel('Sales of Segments')
 plt.title('Sales Data')
 plt.title('SREYAS SATHEESH\nMCA 2023-2025', loc='right')
-plt.savefig("./Outputs/prg-4.png")
+
+plt.savefig("./Outputs/4.png")
 plt.show()
