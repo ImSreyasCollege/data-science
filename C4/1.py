@@ -14,3 +14,4 @@ classifier.fit(x_train,y_train)
 y_pred=classifier.predict(x_test)
 from sklearn.metrics import classification_report,confusion_matrix
 print(classification_report(y_test,y_pred))
+print(confusion_matrix(y_test,y_pred))
