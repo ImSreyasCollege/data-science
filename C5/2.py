@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 def getdata(url):
     r = requests.get(url)
     return r.content
-htmldata = getdata("https://sjcetpalai.ac.in")
+htmldata = getdata("https://www.rust-lang.org/")
 soup = BeautifulSoup(htmldata,'html.parser')
 
 print("SJC23MCA-2053 : SREYAS SATHEESH")

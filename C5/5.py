@@ -3,7 +3,8 @@ from nltk import ngrams
 from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize,word_tokenize
 
-nltk.download('punkt')
+nltk.download('punkt_tab')
+nltk.download("stopwords")
 
 text1 = "The data given satisfies the requirement for model generation. This is used in Data Science Lab"
 print("Sentance tokenization : ")

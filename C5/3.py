@@ -9,3 +9,4 @@ def gen_ngrams(text, wordsToCombine):
     return output
 
 x = gen_ngrams(text='Using the iris data set, implement the KNN algorithm',wordsToCombine=3)
+print(x)
