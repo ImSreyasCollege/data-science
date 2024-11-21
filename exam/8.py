@@ -1,3 +1,5 @@
+# Bar plot (Mode of transport)
+
 import matplotlib.pyplot as plt
 
 x = ["Walking", "Cycling", "Car", "Bus", "Train"]
